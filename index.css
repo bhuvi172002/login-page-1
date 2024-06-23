@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flrx-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(241, 239, 236);
+}
+.task-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* position: sticky;
+top: 0px; */
+}
+
+.task-1 nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 20px;
+background-color: black;
+width: 80%;
+
+}
+.task-1 nav input{
+   width: 200px;
+   height: 30px;
+   border-radius: 50px;
+
+}
+
+.task-1 nav li{
+ color: aliceblue;
+padding: 10px 40px;
+background-color: rgb(35, 35, 34);
+border-radius: 20px;
+margin: 0px 40px 0px 0px;
+text-decoration: none;
+list-style: none;
+}
+.task-1 nav li:hover{
+    background-color: rgb(53, 53, 51);
+    
+}
+.task-1 nav a{
+text-decoration: none;
+}
+
+.task-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    border-radius: 50px;
+height: 728px;
+width: 520px;
+background-color: antiquewhite;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+form{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+width: 360px;
+}
+form h1{
+  font-size:30px;
+  margin-bottom: 30px;
+}
+form label{
+   font-size: 18px;
+    margin-bottom: 20px;
+ 
+}
+form input{
+    width: 360px;
+    height: 48px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+    border: none;
+    background-color: rgb(223, 209, 190);
+}
+.btn{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.task-3{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.con{
+    display: grid;
+    grid-template-rows: 2fr 8fr 2fr;
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+}
+.mm{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.task-3 header{
+ 
+background-color: blueviolet;
+}
+.task-3 aside{
+    
+background-color: rgb(111, 86, 134);
+}
+.task-3 section{
+    
+background-color: rgb(234, 0, 251);
+}
+.task-3 footer{
+    
+background-color: rgb(180, 4, 186);
+}
+@media only screen and (max-width:700px) {
+
+
+    .task-1 nav input{
+       display: none;
+     
+     }
+
+}
+
+@media only screen and (max-width:475px) {
+    .task-1 nav li{
+        color: aliceblue;
+       padding: 10px 10px;
+       background-color: rgb(35, 35, 34);
+       border-radius: 20px;
+       margin: 0px 10px 0px 0px;
+    
+       }
+    .container{
+        border-radius: 50px;
+    height: 664px;
+    width: 335px;
+  
+    
+    }
+    form{
+    width: 311px;
+    }
+    form h1{
+      font-size:30px;
+      margin-bottom: 30px;
+    }
+    form label{
+       font-size: 18px;
+        margin-bottom: 20px;
+     
+    }
+    form input{
+        width: 311px;
+    }
+    .btn{
+        font-size: 16px;
+  
+    }
+}
